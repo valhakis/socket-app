@@ -3,9 +3,10 @@
 static GLchar *GetSource(const GLchar *path)
 {
    char *source = NULL;
-   FILE *fp = fopen("foo.txt", "r");
+   FILE *fp = fopen(path, "r");
    if (fp == NULL) {
       printf("UNABLE TO READ FILE: '%s'\n", path);
+      return NULL;
    } else  {
       /* Go to the end of the file. */
       if (fseek(fp, 0L, SEEK_END) == 0) {
@@ -38,6 +39,12 @@ GLuint NewShader(const GLchar *vpath, const GLchar *fpath)
 {
    GLchar *vertexShaderSource = GetSource(vpath);
    GLchar *fragmentShaderSource = GetSource(fpath);
+
+   if (vertexShaderSource == NULL || fragmentShaderSource == NULL) {
+      printf("VERTEX SHADER || FRAGMENT SHADER ->  NOT OK!\n");
+      return 0;
+   } 
+
    // Build and compile our shader program
    // Vertex shader
    GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);

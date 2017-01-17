@@ -25,6 +25,10 @@ var app = {
       this.process = spawn('app/bin/app.exe', [], {
          stdio: 'inherit'
       });
+      var pid = this.process.pid;
+      this.process.on('close', function(code) {
+         console.log('APP \''+  pid + '\' CLOSED: ' + code);
+      });
    },
    kill: function() {
       if (this.process) {
