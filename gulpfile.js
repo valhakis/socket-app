@@ -5,8 +5,8 @@ var path = require('path');
 var shell = require('gulp-shell');
 
 
-//var __root = path.join(__dirname);
-var __base = path.join(__dirname + '/client/program');
+var __root = path.join(__dirname);
+//var __base = path.join(__dirname + '/client/program');
 
 gulp.task('make', shell.task([
    'make'
@@ -15,10 +15,10 @@ gulp.task('make', shell.task([
    ignoreErrors: false,
    quiet: false,
    interactive: false,
-   cwd: __base
+   cwd: __root
 }));
 
 gulp.task('default', ['make'], function() {
-   gulp.watch([__base + '/**/*.c', 'makefile'], ['make']);
+   gulp.watch([__root + '/**/*.c', 'makefile'], ['make']);
 });
 

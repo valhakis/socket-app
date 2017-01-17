@@ -52,3 +52,22 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
    if(key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
       glfwSetWindowShouldClose(window, GL_TRUE);
 }  
+
+void WindowUpdate(GLFWwindow* window, float r, float g, float b, float a, GLbitfield mask)
+{
+   /* Swap front and back buffers */
+   glfwSwapBuffers(window);
+
+   /* Poll for and process events */
+   glfwPollEvents();
+
+   glClearColor(r, g, b, a);
+
+   /* Render here */
+   glClear(mask);
+}
+
+void WindowTerminate()
+{
+   glfwTerminate();
+}

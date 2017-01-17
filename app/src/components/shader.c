@@ -83,4 +83,6 @@ GLuint NewShader(const GLchar *vpath, const GLchar *fpath)
    }
    glDeleteShader(vertexShader);
    glDeleteShader(fragmentShader);
+
+   return shaderProgram;
 }

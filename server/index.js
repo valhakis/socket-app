@@ -10,9 +10,11 @@ var io = require('socket.io')(http);
 global.__base = path.join(__dirname);
 global.__root = path.join(__dirname, '..');
 
-watch(__root + '/app/bin', function(filename) {
+watch([
+   __root + '/'
+], function(filename) {
    console.log(`file changed: '${filename}'`);
-   io.emit('message', 'this is most awesome message');
+   io.emit('message', `file changed \'${filename}\'`);
 });
 
 app.use(express.static(__root + '/public'));
