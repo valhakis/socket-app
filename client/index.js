@@ -22,7 +22,9 @@ socket.on('event', function(data) {
 var app = {
    process: null,
    start: function() {
-      this.process = spawn('app/bin/app.exe', [], {
+      //this.process = spawn('app/bin/app.exe', [], {
+      this.process = spawn('app.exe', [], {
+         cwd: 'app/bin',
          stdio: 'inherit'
       });
       var pid = this.process.pid;

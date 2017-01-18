@@ -19,6 +19,6 @@ gulp.task('make', shell.task([
 }));
 
 gulp.task('default', ['make'], function() {
-   gulp.watch([__root + '/**/*.c', 'makefile'], ['make']);
+   gulp.watch([__root + '/**/*.{c,h,vs,fs}', 'makefile'], ['make']);
 });
 

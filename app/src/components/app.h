@@ -13,6 +13,8 @@ struct App {
 
    void (*draw)();
    void (*destroy)();
+   void (*createProgram)();
+   void (*setTexture)();
 };
-struct App *AppInit();
+struct App *AppCreateNew();
 #endif

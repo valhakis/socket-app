@@ -12,12 +12,16 @@
   "dependencies": {
     "appjs": "0.0.20",
     "appjs-win32": "0.0.19",
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.5.2",
     "jsonfile": "^2.4.0",
     "node-watch": "^0.4.1",
+    "parse": "^1.9.2",
     "socket.io": "^1.7.2",
-    "socket.io-client": "^1.7.2"
+    "socket.io-client": "^1.7.2",
+    "url": "^0.11.0",
+    "url-parse": "^1.1.7"
   }
 }
