@@ -5,11 +5,14 @@
 #define GLEW_STATIC
 #include <GLFW/glfw3.h>
 #include "shader.h"
+#include <SOIL.h>
 
 struct App {
    int id;
 
-   GLuint vao, vbo, program;
+   float *view;
+
+   GLuint vao, vbo, program, texture;
 
    void (*draw)();
    void (*destroy)();

@@ -1,0 +1,1 @@
+-I/home/william/work/socket-app/app/build/curl-7.52.1/include/curl -I/home/william/work/socket-app/app/build/curl-7.52.1/include -I/home/william/work/socket-app/app/build/curl-7.52.1/lib -I/home/william/work/socket-app/app/build/curl-7.52.1/tests/libtest -I/home/william/work/socket-app/app/build/curl-7.52.1/src 

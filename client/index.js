@@ -5,6 +5,7 @@ console.log('__dirname:', __dirname);
 /* jshint ignore:start */
 var exec = require('child_process').exec;
 var execFile = require('child_process').execFile;
+var execSync = require('child_process').execSync;
 /* jshint ignore:end */
 var spawn = require('child_process').spawn;
 var fs = require('fs');
@@ -49,8 +50,17 @@ socket.on('restart', function(msg) {
       if (!exists) {
          return console.log('FILE DOES NOT EXIST!');
       }
-      app.restart();
+      var touch = spawn('touch', ['app/bin/app.exe']);
+      touch.on('exit', function() {
+         app.restart();
+      });
    });
+});
+
+socket.on('kill', function(msg) {
+   console.log(msg + ' KILLING THE APPLICATION! ');
+   app.kill();
+   process.exit(0);
 });
 
 socket.on('message', function(message) {
@@ -60,3 +70,35 @@ socket.on('message', function(message) {
 socket.on('disconnect', function() {
    console.log('disconnected');
 });
+
+/* MYSQL APP */
+// ============================================
+
+var mysqlApp = {
+   process: null,
+   start: function() {
+      this.process = spawn('app.exe', [], {
+         cwd: 'app/bin',
+         stdio: 'inherit'
+      });
+      var pid = this.process.pid;
+      this.process.on('close', function(code) {
+         console.log('APP \''+  pid + '\' CLOSED: ' + code);
+      });
+   },
+   kill: function() {
+      if (this.process) {
+         this.process.kill();
+      }
+   },
+   restart: function() {
+      this.kill();
+      this.start();
+   }
+};
+
+socket.on('mysql-app', function(command) {
+   if (command === 'start') {
+      console.log('start');
+   }
+})

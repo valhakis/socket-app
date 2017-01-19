@@ -1,0 +1,3 @@
+/usr/bin/cmake -E remove -f CMakeFiles/lib560.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/lib560.dir/objects.a @CMakeFiles/lib560.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4   -Wl,--whole-archive CMakeFiles/lib560.dir/objects.a -Wl,--no-whole-archive  -o lib560.exe -Wl,--out-implib,liblib560.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/lib560.dir/linklibs.rsp

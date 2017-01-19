@@ -1,8 +1,9 @@
-#include <GL/glew.h>
-#define GLEW_STATIC
-#include <GLFW/glfw3.h>
+#include "window.h"
 
 static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
+static void cursor_position_callback(GLFWwindow* window, double xpos, double ypos);
+
+extern struct Mouse mouse;
 
 GLFWwindow* WindowCreate()
 {
@@ -28,6 +29,7 @@ GLFWwindow* WindowCreate()
 
    /* Set window callbacks */
    glfwSetKeyCallback(window, key_callback);  
+   glfwSetCursorPosCallback(window, cursor_position_callback);  
 
    /* Make the window's context current */
    glfwMakeContextCurrent(window);
@@ -70,4 +72,12 @@ void WindowUpdate(GLFWwindow* window, float r, float g, float b, float a, GLbitf
 void WindowTerminate()
 {
    glfwTerminate();
+}
+
+static void cursor_position_callback(GLFWwindow* window, double xpos, double ypos)
+{
+   mouse.x = xpos;
+   mouse.y = ypos;
+
+   mouse.Log(&mouse);
 }

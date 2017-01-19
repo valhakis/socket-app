@@ -1,8 +1,11 @@
 cc = i686-w64-mingw32-gcc
 
-libs = `i686-w64-mingw32-pkg-config --libs glfw3` -lgdi32 -lglu32 -lglew32 -lopengl32 -lglew32.dll -lSOIL
+libs = `i686-w64-mingw32-pkg-config --libs glfw3` \
+		 -lgdi32 -lSOIL -lglu32 -lglew32 -lopengl32 -lglew32.dll
+
 cflags = `i686-w64-mingw32-pkg-config --cflags glfw3` \
-			-L ./libraries/soil/lib -I ./libraries/lib/include \
+			-I libraries/soil/include -L libraries/soil/lib \
+			-I libraries/other/include \
 			-static
 ldflags = 
 
@@ -15,7 +18,7 @@ app: $(objects)
 	$(cc) $(cflags) $(ldflags) $(objects) $(libs) -o bin/app.exe
 
 obj/%.o: src/%.c
-	$(cc) $(cflgas) -c $< -o $@ 
+	$(cc) $(cflags) -c $< -o $@ 
 
 clean:
 	rm -f obj/**/*.o

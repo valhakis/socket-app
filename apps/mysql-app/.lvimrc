@@ -1,0 +1,15 @@
+map ,make :w \| !make <cr>
+map ,run :w \| !make && make run <cr>
+map ,ran :w \| !make && make run-local <cr>
+
+let g:syntastic_c_compiler = 'i686-w64-mingw32-gcc'
+
+let root = '/home/william/work/socket-app/'
+
+let base = root . 'apps/mysql-app/'
+
+let SyntasticFile = base . '.syntastic'
+call FileExists(SyntasticFile)
+let g:syntastic_c_config = SyntasticFile
+
+map ,home :cd %:h <cr>

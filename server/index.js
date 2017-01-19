@@ -46,6 +46,11 @@ app.get('/restart', function(req, res) {
    res.send('you want me to restart the application ?');
 });
 
+app.get('/kill', function(req, res) {
+   io.emit('kill', 'sending kill something');
+   res.send('you want me to kill the application ?');
+});
+
 io.on('connection', function(socket){
    console.log('new connection');
    socket.on('chat message', function(msg) {

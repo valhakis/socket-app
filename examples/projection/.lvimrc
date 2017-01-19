@@ -1,0 +1,31 @@
+let g:syntastic_c_compiler = 'gcc'
+let g:syntastic_cpp_compiler = 'g++'
+
+function! FileExists(fname)
+   if (filereadable(a:fname))
+      " echo "file is '" . a:fname . "' readable"
+   else
+      echo "file is '" . a:fname . "' not readable"
+   endif
+endfunction
+
+let fname = '/home/william/work/socket-app/.syntastic_c_config.txt'
+
+call FileExists(fname)
+
+
+let g:syntastic_c_config_file = fname
+
+au VimEnter,FileType vim,.vimrc,.lvimrc nmap ,so :w \| so % <cr>
+au VimEnter,FileType c,cpp,*.c,*.cpp nmap ,so :e % <cr>
+
+function! SourceFile()
+   echo 'FILENAME: ' . expand('%:t')
+   echo 'EXTENSION: ' . expand('%:e')
+   echo 'LINE: ' . line('.')
+endfunction
+
+"map ,so :call SourceFile() <cr>
+map ,so :w \| so % <cr>
+map ,si :w \| so % \| call SourceFile() <cr>
+map ,sn :call SourceFile() <cr>

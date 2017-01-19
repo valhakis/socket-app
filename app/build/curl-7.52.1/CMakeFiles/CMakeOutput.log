@@ -1,0 +1,1662 @@
+The target system is: Windows -  - 
+The host system is: Linux - 4.8.13-1-ARCH - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/i686-w64-mingw32-gcc 
+Build flags: -O2;-g;-pipe;-Wall;-Wp,-D_FORTIFY_SOURCE=2;-fexceptions;--param=ssp-buffer-size=4;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/3.7.1/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21ce1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21ce1.dir/build.make CMakeFiles/cmTC_21ce1.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21ce1.dir/testCCompiler.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_21ce1.dir/testCCompiler.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_21ce1.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21ce1.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_21ce1.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_21ce1.dir/objects.a @CMakeFiles/cmTC_21ce1.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_21ce1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_21ce1.exe -Wl,--out-implib,libcmTC_21ce1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_21ce1.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70ce7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70ce7.dir/build.make CMakeFiles/cmTC_70ce7.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70ce7.dir/CMakeCCompilerABI.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_70ce7.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_70ce7.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70ce7.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_70ce7.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_70ce7.dir/objects.a @CMakeFiles/cmTC_70ce7.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -v -Wl,--whole-archive CMakeFiles/cmTC_70ce7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_70ce7.exe -Wl,--out-implib,libcmTC_70ce7.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/i686-w64-mingw32-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-w64-mingw32/6.2.1/lto-wrapper
+Target: i686-w64-mingw32
+Configured with: /build/mingw-w64-gcc/src/gcc/configure --prefix=/usr --libexecdir=/usr/lib --target=i686-w64-mingw32 --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-threads=posix --enable-fully-dynamic-string --enable-libstdcxx-time=yes --with-system-zlib --enable-cloog-backend=isl --enable-lto --disable-dw2-exceptions --enable-libgomp --disable-multilib --enable-checking=release
+Thread model: posix
+gcc version 6.2.1 20160830 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/6.2.1/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/6.2.1/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-O2' '-g' '-pipe' '-Wall' '-fexceptions' '--param' 'ssp-buffer-size=4' '-v' '-o' 'cmTC_70ce7.exe' '-mtune=generic' '-march=pentiumpro'
+ /usr/lib/gcc/i686-w64-mingw32/6.2.1/collect2 -plugin /usr/lib/gcc/i686-w64-mingw32/6.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-w64-mingw32/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHhtMpj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_70ce7.exe /usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/i686-w64-mingw32/6.2.1/crtbegin.o -L/usr/lib/gcc/i686-w64-mingw32/6.2.1 -L/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib -L/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_70ce7.dir/objects.a --no-whole-archive --out-implib libcmTC_70ce7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/i686-w64-mingw32/6.2.1/crtend.o
+COLLECT_GCC_OPTIONS='-O2' '-g' '-pipe' '-Wall' '-fexceptions' '--param' 'ssp-buffer-size=4' '-v' '-o' 'cmTC_70ce7.exe' '-mtune=generic' '-march=pentiumpro'
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i686-w64-mingw32-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_70ce7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_70ce7.dir/build.make CMakeFiles/cmTC_70ce7.dir/build]
+  ignore line: [make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_70ce7.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_70ce7.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_70ce7.exe]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70ce7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cmake -E remove -f CMakeFiles/cmTC_70ce7.dir/objects.a]
+  ignore line: [/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_70ce7.dir/objects.a @CMakeFiles/cmTC_70ce7.dir/objects1.rsp]
+  ignore line: [/usr/bin/i686-w64-mingw32-gcc  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -v -Wl,--whole-archive CMakeFiles/cmTC_70ce7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_70ce7.exe -Wl,--out-implib,libcmTC_70ce7.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/i686-w64-mingw32-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-w64-mingw32/6.2.1/lto-wrapper]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: /build/mingw-w64-gcc/src/gcc/configure --prefix=/usr --libexecdir=/usr/lib --target=i686-w64-mingw32 --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-threads=posix --enable-fully-dynamic-string --enable-libstdcxx-time=yes --with-system-zlib --enable-cloog-backend=isl --enable-lto --disable-dw2-exceptions --enable-libgomp --disable-multilib --enable-checking=release]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.2.1 20160830 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-w64-mingw32/6.2.1/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/:/usr/lib/gcc/i686-w64-mingw32/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-w64-mingw32/6.2.1/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib/:/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-g' '-pipe' '-Wall' '-fexceptions' '--param' 'ssp-buffer-size=4' '-v' '-o' 'cmTC_70ce7.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ /usr/lib/gcc/i686-w64-mingw32/6.2.1/collect2 -plugin /usr/lib/gcc/i686-w64-mingw32/6.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-w64-mingw32/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHhtMpj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pe -Bdynamic -o cmTC_70ce7.exe /usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/i686-w64-mingw32/6.2.1/crtbegin.o -L/usr/lib/gcc/i686-w64-mingw32/6.2.1 -L/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib -L/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_70ce7.dir/objects.a --no-whole-archive --out-implib libcmTC_70ce7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt /usr/lib/gcc/i686-w64-mingw32/6.2.1/crtend.o]
+    arg [/usr/lib/gcc/i686-w64-mingw32/6.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/i686-w64-mingw32/6.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/i686-w64-mingw32/6.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHhtMpj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_70ce7.exe] ==> ignore
+    arg [/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [/usr/lib/gcc/i686-w64-mingw32/6.2.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-w64-mingw32/6.2.1] ==> dir [/usr/lib/gcc/i686-w64-mingw32/6.2.1]
+    arg [-L/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib] ==> dir [/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib] ==> dir [/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_70ce7.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_70ce7.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [/usr/lib/gcc/i686-w64-mingw32/6.2.1/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [/usr/lib/gcc/i686-w64-mingw32/6.2.1] ==> [/usr/lib/gcc/i686-w64-mingw32/6.2.1]
+  collapse library dir [/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib/../lib] ==> [/usr/i686-w64-mingw32/lib]
+  collapse library dir [/usr/lib/gcc/i686-w64-mingw32/6.2.1/../../../../i686-w64-mingw32/lib] ==> [/usr/i686-w64-mingw32/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [/usr/lib/gcc/i686-w64-mingw32/6.2.1;/usr/i686-w64-mingw32/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19c89/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19c89.dir/build.make CMakeFiles/cmTC_19c89.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19c89.dir/feature_tests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -std=c11 -o CMakeFiles/cmTC_19c89.dir/feature_tests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/feature_tests.c
+Linking C executable cmTC_19c89.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19c89.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_19c89.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_19c89.dir/objects.a @CMakeFiles/cmTC_19c89.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_19c89.dir/objects.a -Wl,--no-whole-archive  -o cmTC_19c89.exe -Wl,--out-implib,libcmTC_19c89.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_19c89.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6319/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6319.dir/build.make CMakeFiles/cmTC_e6319.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6319.dir/feature_tests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -std=c99 -o CMakeFiles/cmTC_e6319.dir/feature_tests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e6319.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6319.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_e6319.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_e6319.dir/objects.a @CMakeFiles/cmTC_e6319.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_e6319.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e6319.exe -Wl,--out-implib,libcmTC_e6319.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e6319.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bff00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bff00.dir/build.make CMakeFiles/cmTC_bff00.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bff00.dir/feature_tests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -std=c90 -o CMakeFiles/cmTC_bff00.dir/feature_tests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bff00.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bff00.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_bff00.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_bff00.dir/objects.a @CMakeFiles/cmTC_bff00.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_bff00.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bff00.exe -Wl,--out-implib,libcmTC_bff00.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_bff00.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c295/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c295.dir/build.make CMakeFiles/cmTC_5c295.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c295.dir/CheckFunctionExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=getch   -o CMakeFiles/cmTC_5c295.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c295.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c295.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_5c295.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_5c295.dir/objects.a @CMakeFiles/cmTC_5c295.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=getch    -Wl,--whole-archive CMakeFiles/cmTC_5c295.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5c295.exe -Wl,--out-implib,libcmTC_5c295.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5c295.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6e62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6e62.dir/build.make CMakeFiles/cmTC_c6e62.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6e62.dir/CheckFunctionExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=getch   -o CMakeFiles/cmTC_c6e62.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6e62.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6e62.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_c6e62.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_c6e62.dir/objects.a @CMakeFiles/cmTC_c6e62.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=getch    -Wl,--whole-archive CMakeFiles/cmTC_c6e62.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c6e62.exe -Wl,--out-implib,libcmTC_c6e62.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c6e62.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cldap_open exists in the wldap32;winmm;ws2_32 passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fd2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fd2e.dir/build.make CMakeFiles/cmTC_5fd2e.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fd2e.dir/CheckFunctionExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=cldap_open   -o CMakeFiles/cmTC_5fd2e.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5fd2e.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fd2e.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_5fd2e.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_5fd2e.dir/objects.a @CMakeFiles/cmTC_5fd2e.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=cldap_open    -Wl,--whole-archive CMakeFiles/cmTC_5fd2e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5fd2e.exe -Wl,--out-implib,libcmTC_5fd2e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5fd2e.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function libssh2_version exists passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94621/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94621.dir/build.make CMakeFiles/cmTC_94621.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94621.dir/CheckFunctionExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_94621.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_version   -o CMakeFiles/cmTC_94621.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94621.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94621.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_94621.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_94621.dir/objects.a @CMakeFiles/cmTC_94621.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_version    -Wl,--whole-archive CMakeFiles/cmTC_94621.dir/objects.a -Wl,--no-whole-archive  -o cmTC_94621.exe -Wl,--out-implib,libcmTC_94621.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_94621.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function libssh2_init exists passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39bd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39bd3.dir/build.make CMakeFiles/cmTC_39bd3.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39bd3.dir/CheckFunctionExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_39bd3.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_init   -o CMakeFiles/cmTC_39bd3.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39bd3.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39bd3.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_39bd3.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_39bd3.dir/objects.a @CMakeFiles/cmTC_39bd3.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_init    -Wl,--whole-archive CMakeFiles/cmTC_39bd3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_39bd3.exe -Wl,--out-implib,libcmTC_39bd3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_39bd3.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function libssh2_exit exists passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_264b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_264b6.dir/build.make CMakeFiles/cmTC_264b6.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_264b6.dir/CheckFunctionExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_264b6.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_exit   -o CMakeFiles/cmTC_264b6.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_264b6.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_264b6.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_264b6.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_264b6.dir/objects.a @CMakeFiles/cmTC_264b6.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_exit    -Wl,--whole-archive CMakeFiles/cmTC_264b6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_264b6.exe -Wl,--out-implib,libcmTC_264b6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_264b6.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function libssh2_scp_send64 exists passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b628/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b628.dir/build.make CMakeFiles/cmTC_1b628.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b628.dir/CheckFunctionExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_1b628.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_scp_send64   -o CMakeFiles/cmTC_1b628.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b628.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b628.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_1b628.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_1b628.dir/objects.a @CMakeFiles/cmTC_1b628.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_scp_send64    -Wl,--whole-archive CMakeFiles/cmTC_1b628.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1b628.exe -Wl,--out-implib,libcmTC_1b628.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_1b628.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the function libssh2_session_handshake exists passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8eb35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8eb35.dir/build.make CMakeFiles/cmTC_8eb35.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8eb35.dir/CheckFunctionExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_8eb35.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_session_handshake   -o CMakeFiles/cmTC_8eb35.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8eb35.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8eb35.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_8eb35.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_8eb35.dir/objects.a @CMakeFiles/cmTC_8eb35.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DCHECK_FUNCTION_EXISTS=libssh2_session_handshake    -Wl,--whole-archive CMakeFiles/cmTC_8eb35.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8eb35.exe -Wl,--out-implib,libcmTC_8eb35.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_8eb35.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93cf4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93cf4.dir/build.make CMakeFiles/cmTC_93cf4.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93cf4.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_93cf4.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_93cf4.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_93cf4.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93cf4.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_93cf4.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_93cf4.dir/objects.a @CMakeFiles/cmTC_93cf4.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_93cf4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_93cf4.exe -Wl,--out-implib,libcmTC_93cf4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_93cf4.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1a12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1a12.dir/build.make CMakeFiles/cmTC_a1a12.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1a12.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_a1a12.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_a1a12.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_a1a12.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a12.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_a1a12.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_a1a12.dir/objects.a @CMakeFiles/cmTC_a1a12.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_a1a12.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a1a12.exe -Wl,--out-implib,libcmTC_a1a12.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a1a12.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac6d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac6d7.dir/build.make CMakeFiles/cmTC_ac6d7.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac6d7.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_ac6d7.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_ac6d7.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_ac6d7.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac6d7.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_ac6d7.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_ac6d7.dir/objects.a @CMakeFiles/cmTC_ac6d7.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_ac6d7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ac6d7.exe -Wl,--out-implib,libcmTC_ac6d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ac6d7.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3556b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3556b.dir/build.make CMakeFiles/cmTC_3556b.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3556b.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -D_WINSOCKAPI_ @CMakeFiles/cmTC_3556b.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_3556b.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_3556b.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3556b.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_3556b.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_3556b.dir/objects.a @CMakeFiles/cmTC_3556b.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_3556b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3556b.exe -Wl,--out-implib,libcmTC_3556b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_3556b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bec4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bec4d.dir/build.make CMakeFiles/cmTC_bec4d.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bec4d.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_bec4d.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_bec4d.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_bec4d.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bec4d.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_bec4d.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_bec4d.dir/objects.a @CMakeFiles/cmTC_bec4d.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_bec4d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bec4d.exe -Wl,--out-implib,libcmTC_bec4d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_bec4d.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38362/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38362.dir/build.make CMakeFiles/cmTC_38362.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38362.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_38362.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_38362.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_38362.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38362.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_38362.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_38362.dir/objects.a @CMakeFiles/cmTC_38362.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_38362.dir/objects.a -Wl,--no-whole-archive  -o cmTC_38362.exe -Wl,--out-implib,libcmTC_38362.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_38362.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b947e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b947e.dir/build.make CMakeFiles/cmTC_b947e.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b947e.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_b947e.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_b947e.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_b947e.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b947e.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_b947e.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_b947e.dir/objects.a @CMakeFiles/cmTC_b947e.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_b947e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b947e.exe -Wl,--out-implib,libcmTC_b947e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_b947e.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_addc7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_addc7.dir/build.make CMakeFiles/cmTC_addc7.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_addc7.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_addc7.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_addc7.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_addc7.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_addc7.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_addc7.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_addc7.dir/objects.a @CMakeFiles/cmTC_addc7.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_addc7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_addc7.exe -Wl,--out-implib,libcmTC_addc7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_addc7.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfbcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfbcc.dir/build.make CMakeFiles/cmTC_bfbcc.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfbcc.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_bfbcc.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_bfbcc.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_bfbcc.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfbcc.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_bfbcc.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_bfbcc.dir/objects.a @CMakeFiles/cmTC_bfbcc.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_bfbcc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bfbcc.exe -Wl,--out-implib,libcmTC_bfbcc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_bfbcc.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c468/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c468.dir/build.make CMakeFiles/cmTC_6c468.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c468.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_6c468.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_6c468.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_6c468.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c468.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_6c468.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_6c468.dir/objects.a @CMakeFiles/cmTC_6c468.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_6c468.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6c468.exe -Wl,--out-implib,libcmTC_6c468.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_6c468.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;limits.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b283a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b283a.dir/build.make CMakeFiles/cmTC_b283a.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b283a.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_b283a.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_b283a.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_b283a.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b283a.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_b283a.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_b283a.dir/objects.a @CMakeFiles/cmTC_b283a.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_b283a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b283a.exe -Wl,--out-implib,libcmTC_b283a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_b283a.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;limits.h;locale.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6823b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6823b.dir/build.make CMakeFiles/cmTC_6823b.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6823b.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_6823b.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_6823b.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_6823b.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6823b.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_6823b.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_6823b.dir/objects.a @CMakeFiles/cmTC_6823b.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_6823b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6823b.exe -Wl,--out-implib,libcmTC_6823b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_6823b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;limits.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_407fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_407fb.dir/build.make CMakeFiles/cmTC_407fb.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_407fb.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_407fb.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_407fb.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_407fb.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_407fb.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_407fb.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_407fb.dir/objects.a @CMakeFiles/cmTC_407fb.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_407fb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_407fb.exe -Wl,--out-implib,libcmTC_407fb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_407fb.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if files /usr/i686-w64-mingw32/include/libssh2.h;windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;limits.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad304/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad304.dir/build.make CMakeFiles/cmTC_ad304.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad304.dir/CheckIncludeFiles.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_ad304.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_ad304.dir/CheckIncludeFiles.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_ad304.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad304.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_ad304.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_ad304.dir/objects.a @CMakeFiles/cmTC_ad304.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_ad304.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ad304.exe -Wl,--out-implib,libcmTC_ad304.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ad304.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9de4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9de4.dir/build.make CMakeFiles/cmTC_c9de4.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9de4.dir/SIZEOF_SIZE_T.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_c9de4.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_c9de4.dir/SIZEOF_SIZE_T.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_c9de4.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9de4.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_c9de4.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_c9de4.dir/objects.a @CMakeFiles/cmTC_c9de4.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_c9de4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c9de4.exe -Wl,--out-implib,libcmTC_c9de4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c9de4.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5d4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5d4e.dir/build.make CMakeFiles/cmTC_f5d4e.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5d4e.dir/SIZEOF_SSIZE_T.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_f5d4e.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_f5d4e.dir/SIZEOF_SSIZE_T.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+Linking C executable cmTC_f5d4e.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d4e.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_f5d4e.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_f5d4e.dir/objects.a @CMakeFiles/cmTC_f5d4e.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_f5d4e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f5d4e.exe -Wl,--out-implib,libcmTC_f5d4e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f5d4e.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb115/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb115.dir/build.make CMakeFiles/cmTC_eb115.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb115.dir/SIZEOF_LONG_LONG.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_eb115.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_eb115.dir/SIZEOF_LONG_LONG.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_eb115.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb115.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_eb115.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_eb115.dir/objects.a @CMakeFiles/cmTC_eb115.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_eb115.dir/objects.a -Wl,--no-whole-archive  -o cmTC_eb115.exe -Wl,--out-implib,libcmTC_eb115.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_eb115.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_048d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_048d1.dir/build.make CMakeFiles/cmTC_048d1.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_048d1.dir/SIZEOF_LONG.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_048d1.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_048d1.dir/SIZEOF_LONG.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_048d1.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_048d1.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_048d1.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_048d1.dir/objects.a @CMakeFiles/cmTC_048d1.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_048d1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_048d1.exe -Wl,--out-implib,libcmTC_048d1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_048d1.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6a5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6a5b.dir/build.make CMakeFiles/cmTC_a6a5b.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6a5b.dir/SIZEOF_SHORT.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_a6a5b.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_a6a5b.dir/SIZEOF_SHORT.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTC_a6a5b.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6a5b.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_a6a5b.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_a6a5b.dir/objects.a @CMakeFiles/cmTC_a6a5b.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_a6a5b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a6a5b.exe -Wl,--out-implib,libcmTC_a6a5b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a6a5b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c83b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c83b.dir/build.make CMakeFiles/cmTC_9c83b.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c83b.dir/SIZEOF_INT.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_9c83b.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_9c83b.dir/SIZEOF_INT.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_9c83b.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c83b.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_9c83b.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_9c83b.dir/objects.a @CMakeFiles/cmTC_9c83b.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_9c83b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_9c83b.exe -Wl,--out-implib,libcmTC_9c83b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9c83b.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da7d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da7d3.dir/build.make CMakeFiles/cmTC_da7d3.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da7d3.dir/SIZEOF___INT64.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_da7d3.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_da7d3.dir/SIZEOF___INT64.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c
+Linking C executable cmTC_da7d3.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da7d3.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_da7d3.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_da7d3.dir/objects.a @CMakeFiles/cmTC_da7d3.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_da7d3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_da7d3.exe -Wl,--out-implib,libcmTC_da7d3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_da7d3.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79ba3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79ba3.dir/build.make CMakeFiles/cmTC_79ba3.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79ba3.dir/SIZEOF_TIME_T.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_79ba3.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_79ba3.dir/SIZEOF_TIME_T.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_TIME_T.c
+Linking C executable cmTC_79ba3.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79ba3.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_79ba3.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_79ba3.dir/objects.a @CMakeFiles/cmTC_79ba3.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_79ba3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_79ba3.exe -Wl,--out-implib,libcmTC_79ba3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_79ba3.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the basename exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6005/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6005.dir/build.make CMakeFiles/cmTC_e6005.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6005.dir/CheckSymbolExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_e6005.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_e6005.dir/CheckSymbolExists.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_e6005.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6005.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_e6005.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_e6005.dir/objects.a @CMakeFiles/cmTC_e6005.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_e6005.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e6005.exe -Wl,--out-implib,libcmTC_e6005.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e6005.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+File /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/i686-w64-mingw32/include/libssh2.h>
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fda54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fda54.dir/build.make CMakeFiles/cmTC_fda54.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fda54.dir/CheckSymbolExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_fda54.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_fda54.dir/CheckSymbolExists.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_fda54.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fda54.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_fda54.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_fda54.dir/objects.a @CMakeFiles/cmTC_fda54.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_fda54.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fda54.exe -Wl,--out-implib,libcmTC_fda54.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_fda54.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+File /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/i686-w64-mingw32/include/libssh2.h>
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7274/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7274.dir/build.make CMakeFiles/cmTC_e7274.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7274.dir/CheckSymbolExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_e7274.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_e7274.dir/CheckSymbolExists.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_e7274.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7274.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_e7274.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_e7274.dir/objects.a @CMakeFiles/cmTC_e7274.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_e7274.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e7274.exe -Wl,--out-implib,libcmTC_e7274.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e7274.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+File /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/i686-w64-mingw32/include/libssh2.h>
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfce1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfce1.dir/build.make CMakeFiles/cmTC_bfce1.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfce1.dir/CheckSymbolExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_bfce1.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_bfce1.dir/CheckSymbolExists.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_bfce1.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfce1.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_bfce1.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_bfce1.dir/objects.a @CMakeFiles/cmTC_bfce1.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_bfce1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bfce1.exe -Wl,--out-implib,libcmTC_bfce1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_bfce1.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+File /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/i686-w64-mingw32/include/libssh2.h>
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_118fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_118fb.dir/build.make CMakeFiles/cmTC_118fb.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_118fb.dir/CheckSymbolExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_118fb.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_118fb.dir/CheckSymbolExists.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_118fb.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_118fb.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_118fb.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_118fb.dir/objects.a @CMakeFiles/cmTC_118fb.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_118fb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_118fb.exe -Wl,--out-implib,libcmTC_118fb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_118fb.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+File /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/i686-w64-mingw32/include/libssh2.h>
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c367/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c367.dir/build.make CMakeFiles/cmTC_8c367.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c367.dir/CheckSymbolExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_8c367.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_8c367.dir/CheckSymbolExists.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_8c367.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c367.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_8c367.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_8c367.dir/objects.a @CMakeFiles/cmTC_8c367.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_8c367.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8c367.exe -Wl,--out-implib,libcmTC_8c367.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_8c367.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+File /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/i686-w64-mingw32/include/libssh2.h>
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setlocale exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_629eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_629eb.dir/build.make CMakeFiles/cmTC_629eb.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_629eb.dir/CheckSymbolExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_629eb.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_629eb.dir/CheckSymbolExists.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_629eb.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_629eb.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_629eb.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_629eb.dir/objects.a @CMakeFiles/cmTC_629eb.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_629eb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_629eb.exe -Wl,--out-implib,libcmTC_629eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_629eb.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+File /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/i686-w64-mingw32/include/libssh2.h>
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63280/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63280.dir/build.make CMakeFiles/cmTC_63280.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63280.dir/CheckSymbolExists.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_63280.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_63280.dir/CheckSymbolExists.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+In file included from /usr/i686-w64-mingw32/include/libssh2.h:92:0,
+                 from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_63280.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63280.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_63280.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_63280.dir/objects.a @CMakeFiles/cmTC_63280.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_63280.dir/objects.a -Wl,--no-whole-archive  -o cmTC_63280.exe -Wl,--out-implib,libcmTC_63280.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_63280.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+File /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </usr/i686-w64-mingw32/include/libssh2.h>
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7be4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7be4.dir/build.make CMakeFiles/cmTC_c7be4.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7be4.dir/CurlTests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_IOCTLSOCKET  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H   -o CMakeFiles/cmTC_c7be4.dir/CurlTests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c
+/home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c: In function ‘main’:
+/home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c:322:24: warning: ‘socket’ is used uninitialized in this function [-Wuninitialized]
+  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_c7be4.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7be4.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_c7be4.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_c7be4.dir/objects.a @CMakeFiles/cmTC_c7be4.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_IOCTLSOCKET  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H    -Wl,--whole-archive CMakeFiles/cmTC_c7be4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c7be4.exe -Wl,--out-implib,libcmTC_c7be4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c7be4.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfd7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cfd7a.dir/build.make CMakeFiles/cmTC_cfd7a.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfd7a.dir/CurlTests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H   -o CMakeFiles/cmTC_cfd7a.dir/CurlTests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c
+/home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c: In function ‘main’:
+/home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c:378:41: warning: pointer targets in passing argument 3 of ‘ioctlsocket’ differ in signedness [-Wpointer-sign]
+         if(0 != ioctlsocket(0, FIONBIO, &flags))
+                                         ^
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c:364:0:
+/usr/i686-w64-mingw32/include/winsock2.h:977:34: note: expected ‘u_long * {aka long unsigned int *}’ but argument is of type ‘long int *’
+   WINSOCK_API_LINKAGE int WSAAPI ioctlsocket(SOCKET s,__LONG32 cmd,u_long *argp);
+                                  ^~~~~~~~~~~
+Linking C executable cmTC_cfd7a.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfd7a.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_cfd7a.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_cfd7a.dir/objects.a @CMakeFiles/cmTC_cfd7a.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H    -Wl,--whole-archive CMakeFiles/cmTC_cfd7a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cfd7a.exe -Wl,--out-implib,libcmTC_cfd7a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_cfd7a.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e63da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e63da.dir/build.make CMakeFiles/cmTC_e63da.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e63da.dir/CurlTests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H   -o CMakeFiles/cmTC_e63da.dir/CurlTests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c
+/home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c: In function ‘main’:
+/home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c:405:41: warning: passing argument 3 of ‘ioctlsocket’ from incompatible pointer type [-Wincompatible-pointer-types]
+         if(0 != ioctlsocket(0, FIONBIO, &flags))
+                                         ^
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c:392:0:
+/usr/i686-w64-mingw32/include/winsock2.h:977:34: note: expected ‘u_long * {aka long unsigned int *}’ but argument is of type ‘int *’
+   WINSOCK_API_LINKAGE int WSAAPI ioctlsocket(SOCKET s,__LONG32 cmd,u_long *argp);
+                                  ^~~~~~~~~~~
+Linking C executable cmTC_e63da.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e63da.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_e63da.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_e63da.dir/objects.a @CMakeFiles/cmTC_e63da.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H    -Wl,--whole-archive CMakeFiles/cmTC_e63da.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e63da.exe -Wl,--out-implib,libcmTC_e63da.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e63da.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Performing Curl Test HAVE_SOCKLEN_T passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c55f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c55f.dir/build.make CMakeFiles/cmTC_5c55f.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c55f.dir/CurlTests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_SOCKLEN_T  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H   -o CMakeFiles/cmTC_5c55f.dir/CurlTests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c
+Linking C executable cmTC_5c55f.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c55f.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_5c55f.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_5c55f.dir/objects.a @CMakeFiles/cmTC_5c55f.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_SOCKLEN_T  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H    -Wl,--whole-archive CMakeFiles/cmTC_5c55f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5c55f.exe -Wl,--out-implib,libcmTC_5c55f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5c55f.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65a65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65a65.dir/build.make CMakeFiles/cmTC_65a65.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65a65.dir/CurlTests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_BOOL_T  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H   -o CMakeFiles/cmTC_65a65.dir/CurlTests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c
+Linking C executable cmTC_65a65.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65a65.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_65a65.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_65a65.dir/objects.a @CMakeFiles/cmTC_65a65.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_BOOL_T  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H    -Wl,--whole-archive CMakeFiles/cmTC_65a65.dir/objects.a -Wl,--no-whole-archive  -o cmTC_65a65.exe -Wl,--out-implib,libcmTC_65a65.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_65a65.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c86ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c86ed.dir/build.make CMakeFiles/cmTC_c86ed.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c86ed.dir/CurlTests.c.obj
+/usr/bin/i686-w64-mingw32-gcc    -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_FILE_OFFSET_BITS  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H   -o CMakeFiles/cmTC_c86ed.dir/CurlTests.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMake/CurlTests.c
+Linking C executable cmTC_c86ed.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c86ed.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_c86ed.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_c86ed.dir/objects.a @CMakeFiles/cmTC_c86ed.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_FILE_OFFSET_BITS  -DHAVE_LIBSSH2_H -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_SSPI_H -DHAVE_SCHANNEL_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LIMITS_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H    -Wl,--whole-archive CMakeFiles/cmTC_c86ed.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c86ed.exe -Wl,--out-implib,libcmTC_c86ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_c86ed.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef3e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef3e9.dir/build.make CMakeFiles/cmTC_ef3e9.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef3e9.dir/SIZEOF_OFF_T.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_ef3e9.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -D_FILE_OFFSET_BITS=64   -o CMakeFiles/cmTC_ef3e9.dir/SIZEOF_OFF_T.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_ef3e9.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef3e9.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_ef3e9.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_ef3e9.dir/objects.a @CMakeFiles/cmTC_ef3e9.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -D_FILE_OFFSET_BITS=64    -Wl,--whole-archive CMakeFiles/cmTC_ef3e9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ef3e9.exe -Wl,--out-implib,libcmTC_ef3e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ef3e9.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1100/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1100.dir/build.make CMakeFiles/cmTC_f1100.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1100.dir/CURL_SIZEOF_CURL_SOCKLEN_T.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_f1100.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4    -o CMakeFiles/cmTC_f1100.dir/CURL_SIZEOF_CURL_SOCKLEN_T.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/CURL_SIZEOF_CURL_SOCKLEN_T.c
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/CURL_SIZEOF_CURL_SOCKLEN_T.c:3:0:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_f1100.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1100.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_f1100.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_f1100.dir/objects.a @CMakeFiles/cmTC_f1100.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4     -Wl,--whole-archive CMakeFiles/cmTC_f1100.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f1100.exe -Wl,--out-implib,libcmTC_f1100.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f1100.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c654/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c654.dir/build.make CMakeFiles/cmTC_5c654.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c654.dir/src.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_5c654.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -Dcurl_cv_recv   -o CMakeFiles/cmTC_5c654.dir/src.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c:2:0:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_5c654.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c654.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_5c654.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_5c654.dir/objects.a @CMakeFiles/cmTC_5c654.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -Dcurl_cv_recv    -Wl,--whole-archive CMakeFiles/cmTC_5c654.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5c654.exe -Wl,--out-implib,libcmTC_5c654.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5c654.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eeea1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eeea1.dir/build.make CMakeFiles/cmTC_eeea1.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eeea1.dir/src.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_eeea1.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -Dcurl_cv_func_recv_test   -o CMakeFiles/cmTC_eeea1.dir/src.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c:3:0:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c:10:19: warning: ‘recv’ redeclared without dllimport attribute: previous dllimport ignored [-Wattributes]
+                   recv(SOCKET, char *, int, int);
+                   ^~~~
+Linking C executable cmTC_eeea1.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeea1.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_eeea1.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_eeea1.dir/objects.a @CMakeFiles/cmTC_eeea1.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -Dcurl_cv_func_recv_test    -Wl,--whole-archive CMakeFiles/cmTC_eeea1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_eeea1.exe -Wl,--out-implib,libcmTC_eeea1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_eeea1.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+                  #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+                  extern int PASCAL
+                  recv(SOCKET, char *, int, int);
+                  int main(void) {
+                    SOCKET s=0;
+                    char * buf=0;
+                    int len=0;
+                    int flags=0;
+                    int res = recv(s, buf, len, flags);
+                    (void) res;
+                    return 0;
+                  }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43be5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43be5.dir/build.make CMakeFiles/cmTC_43be5.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43be5.dir/src.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_43be5.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -Dcurl_cv_send   -o CMakeFiles/cmTC_43be5.dir/src.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c:2:0:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_43be5.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43be5.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_43be5.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_43be5.dir/objects.a @CMakeFiles/cmTC_43be5.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -Dcurl_cv_send    -Wl,--whole-archive CMakeFiles/cmTC_43be5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_43be5.exe -Wl,--out-implib,libcmTC_43be5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_43be5.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e4ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e4ad.dir/build.make CMakeFiles/cmTC_6e4ad.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e4ad.dir/src.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_6e4ad.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -Dcurl_cv_func_send_test   -o CMakeFiles/cmTC_6e4ad.dir/src.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c:3:0:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c:10:19: warning: ‘send’ redeclared without dllimport attribute: previous dllimport ignored [-Wattributes]
+                   send(SOCKET, const char *, int, int);
+                   ^~~~
+Linking C executable cmTC_6e4ad.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e4ad.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_6e4ad.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_6e4ad.dir/objects.a @CMakeFiles/cmTC_6e4ad.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -Dcurl_cv_func_send_test    -Wl,--whole-archive CMakeFiles/cmTC_6e4ad.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6e4ad.exe -Wl,--out-implib,libcmTC_6e4ad.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_6e4ad.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+                  #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+                  extern int PASCAL
+                  send(SOCKET, const char *, int, int);
+                  int main(void) {
+                    SOCKET s=0;
+                    const char * buf=0;
+                    int len=0;
+                    int flags=0;
+                    int res = send(s, buf, len, flags);
+                    (void) res;
+                    return 0;
+                  }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7b46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7b46.dir/build.make CMakeFiles/cmTC_f7b46.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7b46.dir/src.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_f7b46.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_STRUCT_TIMEVAL   -o CMakeFiles/cmTC_f7b46.dir/src.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c:2:0:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_f7b46.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7b46.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_f7b46.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_f7b46.dir/objects.a @CMakeFiles/cmTC_f7b46.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_STRUCT_TIMEVAL    -Wl,--whole-archive CMakeFiles/cmTC_f7b46.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f7b46.exe -Wl,--out-implib,libcmTC_f7b46.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_f7b46.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of sig_atomic_t passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ff33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ff33.dir/build.make CMakeFiles/cmTC_0ff33.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ff33.dir/SIZEOF_SIG_ATOMIC_T.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_0ff33.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_SIGNAL_H   -o CMakeFiles/cmTC_0ff33.dir/SIZEOF_SIG_ATOMIC_T.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_SIG_ATOMIC_T.c
+Linking C executable cmTC_0ff33.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ff33.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_0ff33.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_0ff33.dir/objects.a @CMakeFiles/cmTC_0ff33.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_SIGNAL_H    -Wl,--whole-archive CMakeFiles/cmTC_0ff33.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0ff33.exe -Wl,--out-implib,libcmTC_0ff33.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_0ff33.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE succeeded with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f9a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f9a1.dir/build.make CMakeFiles/cmTC_5f9a1.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f9a1.dir/src.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_5f9a1.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_SIG_ATOMIC_T_NOT_VOLATILE -DHAVE_SIGNAL_H   -o CMakeFiles/cmTC_5f9a1.dir/src.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5f9a1.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f9a1.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_5f9a1.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_5f9a1.dir/objects.a @CMakeFiles/cmTC_5f9a1.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_SIG_ATOMIC_T_NOT_VOLATILE -DHAVE_SIGNAL_H    -Wl,--whole-archive CMakeFiles/cmTC_5f9a1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5f9a1.exe -Wl,--out-implib,libcmTC_5f9a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5f9a1.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #ifdef HAVE_SIGNAL_H
+    #  include <signal.h>
+    #endif
+    int main(void) {
+      static volatile sig_atomic_t dummy = 0;
+      (void)dummy;
+      return 0;
+    }
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b94c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b94c1.dir/build.make CMakeFiles/cmTC_b94c1.dir/build
+make[1]: Entering directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b94c1.dir/SIZEOF_STRUCT_SOCKADDR_STORAGE.c.obj
+/usr/bin/i686-w64-mingw32-gcc  -DSECURITY_WIN32 -D_WINSOCKAPI_ @CMakeFiles/cmTC_b94c1.dir/includes_C.rsp -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_SIGNAL_H   -o CMakeFiles/cmTC_b94c1.dir/SIZEOF_STRUCT_SOCKADDR_STORAGE.c.obj   -c /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+In file included from /home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CheckTypeSize/SIZEOF_STRUCT_SOCKADDR_STORAGE.c:3:0:
+/usr/i686-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+Linking C executable cmTC_b94c1.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b94c1.dir/link.txt --verbose=1
+/usr/bin/cmake -E remove -f CMakeFiles/cmTC_b94c1.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar cr CMakeFiles/cmTC_b94c1.dir/objects.a @CMakeFiles/cmTC_b94c1.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-gcc   -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions --param=ssp-buffer-size=4 -DHAVE_SIGNAL_H    -Wl,--whole-archive CMakeFiles/cmTC_b94c1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b94c1.exe -Wl,--out-implib,libcmTC_b94c1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_b94c1.dir/linklibs.rsp
+make[1]: Leaving directory '/home/william/work/socket-app/app/build/curl-7.52.1/CMakeFiles/CMakeTmp'
+
+
