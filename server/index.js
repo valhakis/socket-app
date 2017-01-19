@@ -1,11 +1,11 @@
 'use strict';
 
 /* jshint ignore:start */
+//var watch = require('node-watch');
 /* jshint ignore:end */
 
 var bodyParser = require('body-parser');
 var path = require('path');
-var watch = require('node-watch');
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
@@ -18,12 +18,12 @@ var common = require(__base + '/common');
 
 //common.DownloadTexture("https://learnopengl.com/img/textures/wall.jpg");
 
-watch([
-   __root + '/'
-], function(filename) {
-   console.log(`file changed: '${filename}'`);
-   io.emit('message', `file changed \'${filename}\'`);
-});
+//watch([
+   //__root + '/'
+//], function(filename) {
+   //console.log(`file changed: '${filename}'`);
+   //io.emit('message', `file changed \'${filename}\'`);
+//});
 
 app.use(express.static(__root + '/public'));
 

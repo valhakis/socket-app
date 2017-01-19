@@ -9,9 +9,14 @@
 #include "components/debug.h"
 #include "misc/functions.h"
 #include "includes/share.h"
+#include "misc/common.h"
 
 // mat4x4 model, view, proj;
 // mat4x4_identity(model);
+
+static void DownloadTextures();
+
+struct Common *common;
 
 struct Debug debug = {
    1, // mouse log
@@ -21,10 +26,14 @@ struct Mouse mouse;
 
 unsigned int WIDTH = 800, HEIGHT = 600;
 
-int main(void)
+int main(int arg, char *argv[])
 {
+   common = CommonInitialize();
+   DownloadTextures();
+
    MouseInitialize(&mouse);
    //return MYSC_check_read_file();
+   //DownloadTexture(imgUrl);
 
    printf("START OF THE APPLICATION\n");
    GLFWwindow *window = WindowCreate();
@@ -34,7 +43,7 @@ int main(void)
 
    //app->createProgram(app, "../src/shaders/app.vs", "../src/shaders/app.fs");
 
-   app->setTexture(app, "../src/textures/wall.jpg");
+   //app->setTexture(app, "../src/textures/wall.jpg");
 
    /* Loop until the user closes the window */
    while (!glfwWindowShouldClose(window))
@@ -50,4 +59,11 @@ int main(void)
 
    WindowTerminate();
    return 0;
+}
+
+
+static void DownloadTextures()
+{
+   common->DownloadTexture("http://telias.free.fr/textures_tex/wood/wood2.jpg");
+   common->DownloadTextureAs("http://telias.free.fr/textures_tex/wood/wood2.jpg", "wood");
 }

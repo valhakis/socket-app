@@ -5,7 +5,7 @@ name = mysql-app.exe
 cc = i686-w64-mingw32-gcc
 
 # libs = -lmysqlclient -lpthread -lz -lm -lssl -lcrypto
-libs = -lmysqlclient \
+libs = # -lmysqlclient \
 		 # -lwsock32 \
 		 # -lssl \
 		 # -lpthread \
@@ -15,8 +15,8 @@ libs = -lmysqlclient \
 
 
 cflags = \
-			-I /usr/i686-w64-mingw32/include/mysql/ \
-			-L /usr/i686-w64-mingw32/lib/
+			# -I /usr/i686-w64-mingw32/include/mysql/ \
+			# -L /usr/i686-w64-mingw32/lib/
 
 ldflags = 
 

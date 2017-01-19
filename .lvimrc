@@ -1,1 +1,11 @@
 let g:syntastic_c_config = '.syntastic_c_config.txt'
+let g:syntastic_c_compiler = 'i686-w64-mingw32-gcc'
+
+let base = '/home/william/work/socket-app/'
+let file = base . '.syntastic_c_config.txt'
+
+let g:syntastic_c_config_file = file
+
+call FileExists(file)
+
+"echo 'LOCAL VIMRC FILE LOADED'

@@ -74,6 +74,7 @@ socket.on('disconnect', function() {
 /* MYSQL APP */
 // ============================================
 
+/*
 var mysqlApp = {
    process: null,
    start: function() {
@@ -101,4 +102,5 @@ socket.on('mysql-app', function(command) {
    if (command === 'start') {
       console.log('start');
    }
-})
+});
+*/

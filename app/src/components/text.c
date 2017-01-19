@@ -1,4 +1,8 @@
 #include "text.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ft2build.h>
+#include FT_FREETYPE_H  
 
 struct Character Characters;
 
@@ -24,12 +28,12 @@ struct Text *TextCreate()
    struct Text *txt = malloc(sizeof(struct Text));
 
    /* 1. initialize freetype library */
-   //FT_Library ft;
+   FT_Library ft;
 
-   //if(FT_Init_FreeType(&ft)) {
-   //fprintf(stderr, "Could not init freetype library\n");
-   //return 1;
-   //}
+   if(FT_Init_FreeType(&ft)) {
+      fprintf(stderr, "Could not init freetype library\n");
+      exit(1);
+   }
 
    /* 2. create new font face */
    //FT_Face face;

@@ -1,1 +1,10 @@
--I /home/william/work/socket-app/app/libraries/other/include
+-I/home/william/work/socket-app/app/libraries/other/include
+-I/usr/i686-w64-mingw32/include/freetype2 
+-I/usr/i686-w64-mingw32/include 
+-I/usr/i686-w64-mingw32/include/harfbuzz 
+-I/usr/i686-w64-mingw32/include/glib-2.0 
+-I/usr/i686-w64-mingw32/lib/glib-2.0/include 
+-I/usr/i686-w64-mingw32/include -L/usr/i686-w64-mingw32/lib -lfreetype
+-I /home/william/work/socket-app/app/libraries/soil/include/
+
+

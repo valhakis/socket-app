@@ -111,7 +111,7 @@ struct App *AppCreateNew() {
    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
    // Load, create texture and generate mipmaps
-   const char *file = "../src/textures/wall.jpg";
+   const char *file = "../src/textures/wood.jpg";
    FILE *fp = fopen(file, "r");
    if (fp == NULL) {
       printf("UNABLE TO OPEN TEXTURE FILE '%s'\n", file);
