@@ -1,5 +1,8 @@
 #include "share.h"
 
+// EXAMPLE 2D ORTHO
+// ortho(projection, 0.0f, 800.0f, 0.0f, 600.0f, -1.0f, 1.0f); 
+// EXAMPLE ORTHO
 // ortho(view, 0.0f, WIDTH, 0.0f, HEIGHT, 0.1f, 100.0f);
 void ortho(float *matrix, float left, float right, float bot, float top, float near, float far) 
 {

@@ -4,6 +4,7 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
 static void cursor_position_callback(GLFWwindow* window, double xpos, double ypos);
 
 extern struct Mouse mouse;
+extern unsigned int WIDTH, HEIGHT;
 
 GLFWwindow* WindowCreate()
 {
@@ -20,7 +21,7 @@ GLFWwindow* WindowCreate()
    glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
    /* Create a windowed mode window and its OpenGL context */
-   window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+   window = glfwCreateWindow(WIDTH, HEIGHT, "Hello World", NULL, NULL);
    if (!window)
    {
       glfwTerminate();
@@ -77,7 +78,7 @@ void WindowTerminate()
 static void cursor_position_callback(GLFWwindow* window, double xpos, double ypos)
 {
    mouse.x = xpos;
-   mouse.y = ypos;
+   mouse.y = -(ypos - HEIGHT);
 
    mouse.Log(&mouse);
 }

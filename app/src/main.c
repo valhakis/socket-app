@@ -32,28 +32,28 @@ int main(int arg, char *argv[])
    DownloadTextures();
 
    MouseInitialize(&mouse);
-   //return MYSC_check_read_file();
-   //DownloadTexture(imgUrl);
 
    printf("START OF THE APPLICATION\n");
    GLFWwindow *window = WindowCreate();
 
+   /* put your initialization functions here */
    struct App *app = AppCreateNew();
    struct Text *txt = TextCreate();
-
-   //app->createProgram(app, "../src/shaders/app.vs", "../src/shaders/app.fs");
-
-   //app->setTexture(app, "../src/textures/wall.jpg");
 
    /* Loop until the user closes the window */
    while (!glfwWindowShouldClose(window))
    {
-      WindowUpdate(window, 0.03f, 0.03f, 0.03f, 1.0f, GL_COLOR_BUFFER_BIT);
-
-      txt->render(txt, 50, 50, "Text is Awesome");
+      WindowUpdate(window, 0.13f, 0.13f, 0.13f, 1.0f, GL_COLOR_BUFFER_BIT);
+      /* put your rendering functions here */
       app->draw(app);
+      txt->render(txt, 50, 50, "Text is Awesome");
+      txt->RENDER(txt, 100, 100, "This is a test", 0.5f);
+      txt->printf(txt, 250, 250, 1.3f, "%s %s", "string 1", "string 2");
+      txt->printf(txt, mouse.x, mouse.y, 0.5f, "%.2f %.2f", mouse.x, mouse.y);
+      txt->renderBox();
    }
 
+   /* put your destroy functions here */
    app->destroy(app);
    txt->destroy(txt);
 
@@ -66,4 +66,5 @@ static void DownloadTextures()
 {
    common->DownloadTexture("http://telias.free.fr/textures_tex/wood/wood2.jpg");
    common->DownloadTextureAs("http://telias.free.fr/textures_tex/wood/wood2.jpg", "wood");
+   //common->DownloadFontAs("example", "example");
 }

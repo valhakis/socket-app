@@ -106,6 +106,40 @@ static int DownloadTextureAs(const char *url, const char *name)
    printf("DOWNLOADED: %s\n", outfile);
    return 0;
 }
+// DOWNLOAD FONT AS NAME
+// ====================================================
+// DownloadTexture("http://example.com/12se.jpg", "example") -> example.jpg
+// ----------------------------------------------------
+static int DownloadFontAs(const char *url, const char *name)
+{
+   CURL *curl;
+   FILE *fp;
+   CURLcode res;
+   char outfile[FILENAME_MAX];
+   const char *font_path = "../src/fonts";
+   const char *filename = Basename((char *)url);
+   const char *ext = GetFilenameExtension(filename);
+   sprintf(outfile, "%s/%s.%s", font_path, name, ext);
+
+   if (access(outfile, F_OK) != -1) {
+      printf("FILE '%s' ALREADY EXISTS\n", outfile);
+      return -1;
+   }
+
+   curl = curl_easy_init();
+   if (curl) {
+      fp = fopen(outfile,"wb");
+      curl_easy_setopt(curl, CURLOPT_URL, url);
+      curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
+      curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
+      res = curl_easy_perform(curl);
+      /* always cleanup */
+      curl_easy_cleanup(curl);
+      fclose(fp);
+   }
+   printf("DOWNLOADED: %s\n", outfile);
+   return 0;
+}
 
 // JUST PRINT TEXT TO SCREEN
 // ====================================================

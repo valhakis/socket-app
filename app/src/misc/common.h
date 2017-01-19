@@ -6,6 +6,7 @@ struct Common {
    int (*test)(struct Common *);
    int (*DownloadTexture)(const char *url);
    int (*DownloadTextureAs)(const char *url, const char *name);
+   int (*DownloadFontAs)(const char *url, const char *name);
 };
 struct Common *CommonInitialize();
 
